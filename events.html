@@ -10,9 +10,31 @@ function sum(a,b)
 {
 	var res=a+b;
 	document.write(res);
+}  //onclick confirm
+function show()
+{
+	value=confirm("this is confirm bx");
+if(value==true)
+{
+	document.write("okay");
+}	else 
+{document.write("cancel");
 }
+	
+}
+function prom()//about prompt onclick 
+{
+	tell=prompt("tell your name","Example");
+	document.write("your name is "+tell);
+}
+
+
+
+
 </script>
 <button onclick="sum(5,7)">click here</button>
-
+</br>
+<button onclick="show()">clcik 2</button><br>
+<button onclick="prom()">clcik 3</button>
 </body>
 </html>	

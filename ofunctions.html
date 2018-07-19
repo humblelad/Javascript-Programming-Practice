@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>JS</title>
+        <meta charset="windows-1252">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <!-- started working in netbeans ide <!-->
+        <script type="text/javascript">
+    //example of objects with functions      
+    function house()
+            {
+                this.location="chennai";
+                this.color="black";
+            }
+            
+            var obj_house=new house();
+            document.write(obj_house.location+'<br>'+obj_house.color);
+           //functions with arguments
+           function housee(loc,col)
+           {
+               this.location=loc;
+               this.color=col;
+            }
+                var obj=new housee("kerala","green");
+           document.write("this is my place "+obj.location);
+           
+           /*  EXAMPLE OF USING FOR LOOP IN FUNCTION FOR DISPLAY
+           for (var i in obj)
+           {
+               document.write(obj[i]+"<br>")
+           }  
+          */
+           
+                
+    </script>
+    </body>
+</html>
